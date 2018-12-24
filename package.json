@@ -1,0 +1,32 @@
+{
+  "name": "gtdrummin",
+  "version": "1.0.0",
+  "description": "A looping drum machine!",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoXoLoT/gtdrummin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoXoLoT/gtdrummin/issues"
+  },
+  "homepage": "https://github.com/FoXoLoT/gtdrummin#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mocha": "^5.2.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2",
+    "tone": "^0.12.80"
+  }
+}
